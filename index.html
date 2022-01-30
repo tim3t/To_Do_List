@@ -1,1 +1,33 @@
-This attachment was removed because it contains data that could pose a security risk.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Needs Doing?</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>What Needs Doing?</h1>
+    <p>"Sometimes our stop-doing list needs to be bigger than our to-do list." -Patti Digh</p>
+    <hr>
+
+  <section id="listbox">
+    <form id="makeToDoList">
+       <label for="input">I need to:</label>
+       <input type=text id="input" size=30 required>
+        <button>Add Item &rarr;</button>
+    </form>
+        <ul id="toDoList">
+        </ul>
+  </section>
+
+  <p id="instructions"> Instructions: Type your to-do list item into the field provided and click "Add Item".  When complete, click on the item to cross it off your list.  To remove completely, click the 'X'</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
