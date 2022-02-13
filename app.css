@@ -1,37 +1,43 @@
-h1, p {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
+body {
+	background-color: rgb(73, 110, 167);
 }
 
-#makeToDoList, ul {
-    list-style-type: none;
-    font-family: 'Quicksand', sans-serif;
-    }
+h1,
+p {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+#makeToDoList,
+ul {
+	list-style-type: none;
+	font-family: 'Quicksand', sans-serif;
+}
 
 ul li:hover {
-    color: red;
+	color: red;
 }
 
 ul button {
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 20px;
-
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 20px;
 }
 
 #listbox {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .done {
-  text-decoration-line: line-through;
-  color: slategray 
+	text-decoration-line: line-through;
+	color: slategray;
 }
 
-#instructions{
-  margin-top:30vh;  
-  font-style: italic;
+#instructions {
+	margin-top: 30vh;
+	font-style: italic;
 }
